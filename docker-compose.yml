@@ -1,0 +1,8 @@
+services:
+  netpulse:
+    build: .
+    container_name: netpulse
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app

@@ -1,0 +1,4 @@
+algorithm,class,packets,loss_pct,mean_delay_ms,p95_delay_ms,p99_delay_ms,jitter_ms,mean_hops,avg_util_pct,max_util_pct
+dijkstra_fifo,P0_combat,7100,30.69,72.564,143.265,192.718,25.0014,8.0,50.25,282.21
+llq_standalone,P0_combat,7100,1.479,45.162,66.767,104.473,3.7284,8.0,50.25,282.21
+ml_routing,P0_combat,7100,1.169,45.617,66.474,106.866,3.4502,8.1,50.36,282.21

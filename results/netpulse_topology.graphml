@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="packet_loss" attr.type="double" />
+  <key id="d4" for="edge" attr.name="delay_ms" attr.type="long" />
+  <key id="d3" for="edge" attr.name="bandwidth_mbps" attr.type="long" />
+  <key id="d2" for="node" attr.name="type" attr.type="string" />
+  <key id="d1" for="graph" attr.name="description" attr.type="string" />
+  <key id="d0" for="graph" attr.name="name" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="R1">
+      <data key="d2">router</data>
+    </node>
+    <node id="R2">
+      <data key="d2">router</data>
+    </node>
+    <node id="R3">
+      <data key="d2">router</data>
+    </node>
+    <node id="R4">
+      <data key="d2">router</data>
+    </node>
+    <node id="R5">
+      <data key="d2">router</data>
+    </node>
+    <node id="R6">
+      <data key="d2">router</data>
+    </node>
+    <node id="R7">
+      <data key="d2">router</data>
+    </node>
+    <node id="R8">
+      <data key="d2">router</data>
+    </node>
+    <node id="R9">
+      <data key="d2">router</data>
+    </node>
+    <node id="R10">
+      <data key="d2">router</data>
+    </node>
+    <node id="R11">
+      <data key="d2">router</data>
+    </node>
+    <node id="R12">
+      <data key="d2">router</data>
+    </node>
+    <node id="R13">
+      <data key="d2">router</data>
+    </node>
+    <node id="R14">
+      <data key="d2">router</data>
+    </node>
+    <node id="R15">
+      <data key="d2">router</data>
+    </node>
+    <node id="R16">
+      <data key="d2">router</data>
+    </node>
+    <node id="R17">
+      <data key="d2">router</data>
+    </node>
+    <node id="R18">
+      <data key="d2">router</data>
+    </node>
+    <node id="R19">
+      <data key="d2">router</data>
+    </node>
+    <node id="R20">
+      <data key="d2">router</data>
+    </node>
+    <node id="R21">
+      <data key="d2">router</data>
+    </node>
+    <node id="R22">
+      <data key="d2">router</data>
+    </node>
+    <node id="R23">
+      <data key="d2">router</data>
+    </node>
+    <node id="R24">
+      <data key="d2">router</data>
+    </node>
+    <node id="R25">
+      <data key="d2">router</data>
+    </node>
+    <node id="R26">
+      <data key="d2">router</data>
+    </node>
+    <node id="R27">
+      <data key="d2">router</data>
+    </node>
+    <node id="R28">
+      <data key="d2">router</data>
+    </node>
+    <node id="R29">
+      <data key="d2">router</data>
+    </node>
+    <node id="R30">
+      <data key="d2">router</data>
+    </node>
+    <node id="S1">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC1">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S2">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC2">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S3">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC3">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S4">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC4">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S5">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC5">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S6">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC6">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S7">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC7">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S8">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC8">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S9">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC9">
+      <data key="d2">pc</data>
+    </node>
+    <node id="S10">
+      <data key="d2">switch</data>
+    </node>
+    <node id="PC10">
+      <data key="d2">pc</data>
+    </node>
+    <edge source="R1" target="R11">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R1" target="R29">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R1" target="S1">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R2" target="R13">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R2" target="R20">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R2" target="R23">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R2" target="S2">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R2" target="S3">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R3" target="R4">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R3" target="R16">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R3" target="R23">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R4" target="R14">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R4" target="R15">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R4" target="S4">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R5" target="R15">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R5" target="R30">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R5" target="S5">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R6" target="R16">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R6" target="R25">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R6" target="S6">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R7" target="R18">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R7" target="R19">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R7" target="S7">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R8" target="R25">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R8" target="R19">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R8" target="R21">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R8" target="S8">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R9" target="R21">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R9" target="R26">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R9" target="S9">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R10" target="R26">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R10" target="R28">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R10" target="S10">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R11" target="R12">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R12" target="R13">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R13" target="R26">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R13" target="R24">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R14" target="R24">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R14" target="R18">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R15" target="R19">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R15" target="R22">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R16" target="R17">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R16" target="R20">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R17" target="R25">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R18" target="R27">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R18" target="R29">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R20" target="R21">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R20" target="R22">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R23" target="R25">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R23" target="R28">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R24" target="R27">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R28" target="R29">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="R28" target="R30">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S1" target="PC1">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S2" target="PC2">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S3" target="PC3">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S4" target="PC4">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S5" target="PC5">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S6" target="PC6">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S7" target="PC7">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S8" target="PC8">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S9" target="PC9">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <edge source="S10" target="PC10">
+      <data key="d3">100</data>
+      <data key="d4">5</data>
+      <data key="d5">0.0</data>
+    </edge>
+    <data key="d0">NETPULSE</data>
+    <data key="d1">30-router multiplayer network simulation</data>
+  </graph>
+</graphml>

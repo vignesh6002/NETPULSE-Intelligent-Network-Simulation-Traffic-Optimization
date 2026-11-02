@@ -1,0 +1,9 @@
+scheme,class,packets_captured,sim_loss_pct,sim_mean_delay_ms,cap_mean_delay_ms,sim_p99_ms,cap_p99_ms,sim_jitter_ms,cap_jitter_ms,dscp_values
+baseline,P0_combat,593,5.692,47.003,47.163,135.576,135.764,7.1714,7.176,46
+baseline,P1_movement_voice,1577,0.783,40.554,40.716,80.174,80.319,2.9568,2.9549,34
+baseline,P2_sync,450,0.0,39.813,39.968,50.266,50.465,1.2255,1.211,26
+baseline,P3_idle,330,0.0,40.11,40.28,76.017,76.218,2.1225,2.1164,10
+llq_only,P0_combat,626,0.615,40.536,40.815,99.368,99.555,1.2447,1.5343,46
+llq_only,P1_movement_voice,1576,0.843,39.02,39.261,56.138,56.756,1.2434,1.4337,34
+llq_only,P2_sync,450,0.0,39.024,39.273,47.949,48.377,0.5645,0.8055,26
+llq_only,P3_idle,330,0.0,39.023,39.331,55.767,59.98,1.1872,1.6244,10

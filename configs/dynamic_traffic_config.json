@@ -1,0 +1,30 @@
+
+{
+  "seed": 42,
+  "simulation_steps": 300,
+  "interval_seconds": 1,
+  "background_traffic": {
+    "minimum_mbps": 10,
+    "maximum_mbps": 60,
+    "initial_minimum_mbps": 20,
+    "initial_maximum_mbps": 50,
+    "maximum_change_per_interval_mbps": 5
+  },
+  "game_traffic": {
+    "flows_per_interval": 10,
+    "activity_probabilities": {
+      "idle": 0.10,
+      "movement": 0.40,
+      "combat": 0.25,
+      "voice": 0.10,
+      "synchronization": 0.15
+    },
+    "activity_rates_mbps": {
+      "idle": [0.05, 0.15],
+      "movement": [0.10, 0.50],
+      "combat": [0.20, 0.80],
+      "voice": [0.03, 0.12],
+      "synchronization": [0.10, 0.40]
+    }
+  }
+}

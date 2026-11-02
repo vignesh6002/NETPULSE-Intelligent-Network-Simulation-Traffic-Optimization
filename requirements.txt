@@ -1,0 +1,9 @@
+networkx
+simpy
+numpy
+pandas
+pyyaml
+streamlit
+pyvis
+matplotlib
+scikit-learn
